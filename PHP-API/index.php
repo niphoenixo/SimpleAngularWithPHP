@@ -1,6 +1,5 @@
 <?php
 require("classes/API.php");
-
 if(isset($_REQUEST['token'])){
 		$api = new API();
 		$token = $_REQUEST['token']; 
@@ -27,5 +26,4 @@ if(isset($_REQUEST['token'])){
 		}
 		
 }		
-
 ?>
